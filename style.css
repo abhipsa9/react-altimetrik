@@ -1,0 +1,186 @@
+*{
+  padding:0;
+  margin:0;
+}
+.mainsummary{
+  height:100vh;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+}
+.headersummary{
+  flex: 1;
+  background-color: black;
+  display:flex;
+  flex-direction: row;
+}
+.cartbutton:hover{
+  color:white;
+  cursor:pointer;
+}
+.bodysummary{
+  flex:8;
+}
+.backbutton{
+  flex:1;
+  display:flex;
+  justify-content: left;
+  margin-left:10px;
+  align-items: center;
+  color:rgb(247, 247, 44);
+  cursor:pointer;
+}
+
+.heading{
+  flex:1;
+  color:rgb(247, 247, 44);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartbutton{
+  flex:1;
+  color:rgb(247, 247, 44);
+  display:flex;
+  justify-content: flex-end;
+  margin-right:10px;
+  align-items: center
+}
+.cardbody{
+  padding:10px;
+  margin:2px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px grey
+}
+.RestaurantHeader{
+  display: flex;
+}
+.none{
+  flex:1;
+}
+.RestaurantName{
+  flex:1;
+  display:flex;
+  justify-content: center
+}
+.clearall{
+  flex:1;
+  display:flex;
+  justify-content: flex-end;
+  margin-right:10px;
+  color:red;
+  cursor: pointer;
+}
+.ItemRow{
+  display:flex;
+  margin:20px;
+}
+.itemname{
+  flex:7;
+}
+.controls{
+  flex:1;
+}
+.deleteitem{
+  flex:1;
+  cursor: pointer;
+}
+.price{
+  flex:1
+}
+.deleteitem:hover{
+  color:orangered
+}
+.SearchBar{
+  display:flex;
+  justify-content: center;
+  margin:10px;
+
+}
+.search{
+  width:70%;
+  border-radius: 10px;
+  padding:5px;
+  outline: none;
+}
+.fooditems{
+  height:40%;
+  display:flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.itemcard{
+  width:170px;
+  height:200px;
+  background-color: blanchedalmond;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin:5px
+}
+.imagepart{
+  background-color: white;
+  flex:7;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.namepart{
+  flex:1;
+  display: flex;
+  justify-content: center;
+}
+.addtocart{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  border-radius: 0 0 5px 5px;
+  cursor: pointer;
+  color:blue
+}
+.addtocart:hover{
+  font-weight: bold;
+}
+
+.imagedetails{
+  width:160px;
+  height:150px;
+}
+.Restcard{
+  background-color: whitesmoke;
+  width:100%;
+  height:100%;
+  border-radius: 10px;
+  border:1px solid black;
+  display:flex;
+  flex-direction: column;
+  margin:10px;
+}
+.Restcard > p {
+  margin:10px;
+}
+.Restname{
+  flex:1;
+  display: flex;
+}
+.RestItem{
+  flex:8;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+.subname{
+  margin-left:10px;
+  flex:1;
+  display: flex;
+  align-items: center;
+}
+.subrating{
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right:10px;
+}
